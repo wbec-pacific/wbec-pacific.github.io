@@ -1,0 +1,18 @@
+BEGIN:VCARD
+VERSION:3.0
+REV:2024-03-07T18:47:53Z
+N;CHARSET=utf-8:Franklin;Synthia;;;
+FN;CHARSET=utf-8:Synthia Franklin
+EMAIL;INTERNET:operations@wbec-pacific.org
+URL;Home;:synthiafranklin.carrd.co
+TEL;CELL;HOME;:
+TEL;HOME;:
+TEL;CELL;PERF;:
+ORG;CHARSET=utf-8:WBEC - Pacific;WORK;
+TITLE;CHARSET=utf-8:Director of Events & Marketing
+URL;WORK;:wbec-pacific.org
+TEL;WORK;:4255309413
+TEL;CELL;WORK;:
+ADR;WORK;POSTAL;CHARSET=utf-8:;;3616 Colby Ave #251;Everett;;98201;United
+  States
+END:VCARD

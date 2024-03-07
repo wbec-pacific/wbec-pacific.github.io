@@ -1,0 +1,18 @@
+BEGIN:VCARD
+VERSION:3.0
+REV:2024-03-07T18:44:31Z
+N;CHARSET=utf-8:Greene;Dr. Janice;;;
+FN;CHARSET=utf-8:Dr. Janice Greene
+EMAIL;INTERNET:janice@wbec-pacific.org
+URL;Home;:drjanicegreene.carrd.co
+TEL;CELL;HOME;:
+TEL;HOME;:
+TEL;CELL;PERF;:
+ORG;CHARSET=utf-8:WBEC - Pacific;WORK;
+TITLE;CHARSET=utf-8:President & CEO
+URL;WORK;:wbec-pacific.org
+TEL;WORK;:4253308140
+TEL;CELL;WORK;:
+ADR;WORK;POSTAL;CHARSET=utf-8:;;3616 Colby Ave #251;Everett;;98201;United
+  States
+END:VCARD
