@@ -1,6 +1,6 @@
 BEGIN:VCARD
 VERSION:3.0
-REV:2024-03-07T18:48:44Z
+REV:2024-04-10T17:39:24Z
 N;CHARSET=utf-8:Pacific;WBEC;;;
 FN;CHARSET=utf-8:WBEC Pacific
 EMAIL;INTERNET:info@wbec-pacific.org
@@ -11,7 +11,7 @@ TEL;CELL;PERF;:
 ORG;CHARSET=utf-8:WBEC - Pacific;WORK;
 TITLE;CHARSET=utf-8:Women's Business Enterprise Council - Pacific
 URL;WORK;:wbec-pacific.org
-TEL;WORK;:4253155999
+TEL;WORK;:
 TEL;CELL;WORK;:
 ADR;WORK;POSTAL;CHARSET=utf-8:;;3616 Colby Ave #251;Everett;;98201;United
   States
