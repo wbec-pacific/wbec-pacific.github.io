@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Homepage - WBEC Pacific | Women&#039;s Business Enterprise Council Pacific</title>
-	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="/author/david/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>Join Forces. Succeed Together.</description>
 	<lastBuildDate>Fri, 19 Jul 2024 18:48:58 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -23,7 +23,7 @@
 <image>
 	<url>/wp-content/uploads/2024/05/cropped-WBECP-Stacked-Square-Digital-32x32.jpg</url>
 	<title>Homepage - WBEC Pacific | Women&#039;s Business Enterprise Council Pacific</title>
-	<link></link>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
