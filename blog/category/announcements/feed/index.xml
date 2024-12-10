@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Announcements &#8211; WBEC Pacific | Women&#039;s Business Enterprise Council Pacific</title>
+	<atom:link href="/blog/category/announcements/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Join Forces. Succeed Together.</description>
+	<lastBuildDate>Mon, 09 Dec 2024 17:38:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
+
+<image>
+	<url>/wp-content/uploads/2024/05/cropped-WBECP-Stacked-Square-Digital-32x32.jpg</url>
+	<title>Announcements &#8211; WBEC Pacific | Women&#039;s Business Enterprise Council Pacific</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Welcome to WBEC Pacific&#8217;s New Website</title>
+		<link>/blog/2024/welcome-to-wbec-pacifics-new-website/</link>
+		
+		<dc:creator><![CDATA[David]]></dc:creator>
+		<pubDate>Thu, 05 Dec 2024 21:52:05 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">/?p=901</guid>
+
+					<description><![CDATA[Redesigned from the ground up, our new corner of the internet provides increased functionality, versatility, and accessibility features to help make your time on our pages quicker, easier, and friendlier.]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>
