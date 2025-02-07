@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 
 body {
     background: #f9f9f9;
     text-align: center;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     margin: 0;
 }
 
@@ -15,14 +15,12 @@ body {
     z-index: 420;
     border: none;
     outline: none;
-    background-color: rgba(249, 246, 251, 0.85);
-    color: #1d76bb;
+    background: #f9f9f9;
+    color: #652f8f;
     cursor: pointer;
     padding: 20px;
     font-size: 30pt;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #1d76bb;
+    border-radius: 1000px;
     transition: all 0.5s;
 }
 
@@ -113,65 +111,34 @@ h2 {
     }
 
     #tray {
-        width: 90%;
-        border: 20px dashed #f9f6fb;
-        border-top-style: none;
-        border-bottom-style: none;
-        outline: 10px solid #a11cf0;
-    }
-
-    h1 {
-        font-size: 32pt;
-        padding: 20px 0 30px 0;
+        width: 100%;
     }
 
     h6 {
         font-size: 16pt;
-        line-height: 18pt;
-        padding-bottom: 5px;
     }
 
     #intro {
         width: 90%;
-        margin: auto;
-        line-height: 18pt;
-        letter-spacing: 1px;
     }
 
     .container {
         width: 90%;
-        margin: auto;
     }
 
     .mix {
-        border-radius: 12px;
-        border-width: 2px;
+        border-radius: 25px;
         transition: all 0.5s;
     }
 
     h2 {
         font-size: 20pt;
-        line-height: 22pt;
         padding-top: 8px;
-    }
-
-    .link {
-        padding: 20px 0;
-        width: 90%;
-        margin: auto;
-    }
-
-    .emoji {
-        font-size: 16pt;
     }
 }
 
 /*MOBILE*/
 @media (min-width: 1px) and (max-width: 900px) {
-    body {
-        background: #f9f6fb;
-    }
-
     #top {
         bottom: 25px;
         right: auto;
@@ -179,23 +146,6 @@ h2 {
         padding: 15px;
         font-size: 15pt;
         transition: all 0.5s;
-    }
-
-    #tray {
-        border: 10px solid #f9f6fb !important;
-        border-top-style: none !important;
-        border-bottom-style: none !important;
-        outline: 5px solid #f9f6fb !important;
-    }
-
-    h1 {
-        font-size: 28pt;
-        line-height: 28pt !important;
-        padding: 20px 0 !important;
-    }
-
-    #intro {
-        padding-top: 10px;
     }
 
     select {
@@ -208,35 +158,5 @@ h2 {
         font-size: 10pt;
         font-weight: 400;
         padding: 6px 4px 4px 4px;
-    }
-
-    input {
-        letter-spacing: 2px;
-        width: 90%;
-        font-size: 12pt;
-        padding-top: 5px;
-        margin-top: 10px;
-    }
-
-    #desktop {
-        display: none;
-    }
-
-    .mix {
-        box-shadow: 0 4px 6px rgba(9, 1, 4, 0.25);
-        transition: all 0.5s;
-    }
-
-    .mix:hover {
-        box-shadow: 0 4px 6px rgba(9, 1, 4, 0.5);
-        transition: all 0.5s;
-    }
-
-    .ratings {
-        flex-direction: column;
-    }
-
-    .check {
-        flex-direction: row !important;
     }
 }
