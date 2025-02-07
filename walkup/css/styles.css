@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body {
+    background: #f9f9f9;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+}
+
+#top {
+    opacity: 0;
+    position: fixed;
+    bottom: 30px;
+    right: 60px;
+    z-index: 420;
+    border: none;
+    outline: none;
+    background-color: rgba(249, 246, 251, 0.85);
+    color: #1d76bb;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 30pt;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1d76bb;
+    transition: all 0.5s;
+}
+
+#tray {
+    background: #f9f9f9;
+    width: 70%;
+    margin: auto;
+}
+
+h6 {
+    font-size: 26pt;
+    margin: 0 1.5%;
+    font-weight: 900;
+    line-height: 30pt;
+    padding-bottom: 10px;
+}
+
+#intro {
+    width: 80%;
+    margin: auto;
+    color: #652f8f;
+    padding-top: 30px;
+}
+
+select {
+    text-transform: uppercase;
+    overflow: clip;
+    background: none;
+    border-style: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 90px;
+    scrollbar-width: none;
+}
+
+option {
+    display: inline-block;
+    margin: 20px 10px;
+    font-size: 16pt;
+    padding: 8px 8px 5px 8px;
+    color: black;
+    font-weight: 300;
+    background: #f9f9f9;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 16pt;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.mix {
+    background: #1d76bb;
+    border-radius: 50px;
+    margin-bottom: 25px;
+    opacity: 100%;
+    transition: all 0.5s;
+    display: block;
+    color: #f9f9f9;
+}
+
+h2 {
+    font-size: 30pt;
+    line-height: 36pt;
+    margin: auto;
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+/*TABLET + MOBILE*/
+@media (min-width: 1px) and (max-width: 1440px) {
+    #top {
+        right: 30px;
+        padding: 18px;
+        font-size: 18pt;
+        transition: all 0.5s;
+    }
+
+    #tray {
+        width: 90%;
+        border: 20px dashed #f9f6fb;
+        border-top-style: none;
+        border-bottom-style: none;
+        outline: 10px solid #a11cf0;
+    }
+
+    h1 {
+        font-size: 32pt;
+        padding: 20px 0 30px 0;
+    }
+
+    h6 {
+        font-size: 16pt;
+        line-height: 18pt;
+        padding-bottom: 5px;
+    }
+
+    #intro {
+        width: 90%;
+        margin: auto;
+        line-height: 18pt;
+        letter-spacing: 1px;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .mix {
+        border-radius: 12px;
+        border-width: 2px;
+        transition: all 0.5s;
+    }
+
+    h2 {
+        font-size: 20pt;
+        line-height: 22pt;
+        padding-top: 8px;
+    }
+
+    .link {
+        padding: 20px 0;
+        width: 90%;
+        margin: auto;
+    }
+
+    .emoji {
+        font-size: 16pt;
+    }
+}
+
+/*MOBILE*/
+@media (min-width: 1px) and (max-width: 900px) {
+    body {
+        background: #f9f6fb;
+    }
+
+    #top {
+        bottom: 25px;
+        right: auto;
+        left: 25px;
+        padding: 15px;
+        font-size: 15pt;
+        transition: all 0.5s;
+    }
+
+    #tray {
+        border: 10px solid #f9f6fb !important;
+        border-top-style: none !important;
+        border-bottom-style: none !important;
+        outline: 5px solid #f9f6fb !important;
+    }
+
+    h1 {
+        font-size: 28pt;
+        line-height: 28pt !important;
+        padding: 20px 0 !important;
+    }
+
+    #intro {
+        padding-top: 10px;
+    }
+
+    select {
+        margin-top: 10px;
+        height: 60px;
+    }
+
+    option {
+        margin: 10px 1px;
+        font-size: 10pt;
+        font-weight: 400;
+        padding: 6px 4px 4px 4px;
+    }
+
+    input {
+        letter-spacing: 2px;
+        width: 90%;
+        font-size: 12pt;
+        padding-top: 5px;
+        margin-top: 10px;
+    }
+
+    #desktop {
+        display: none;
+    }
+
+    .mix {
+        box-shadow: 0 4px 6px rgba(9, 1, 4, 0.25);
+        transition: all 0.5s;
+    }
+
+    .mix:hover {
+        box-shadow: 0 4px 6px rgba(9, 1, 4, 0.5);
+        transition: all 0.5s;
+    }
+
+    .ratings {
+        flex-direction: column;
+    }
+
+    .check {
+        flex-direction: row !important;
+    }
+}

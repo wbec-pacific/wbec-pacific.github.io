@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="robots" content="noindex">
+    <title>WBECP Walkup Music</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <button onclick="topReturn()" id="top" title="Return to top">&#9650;</button>
+    <div id="tray">
+        <div>
+            <h6 id="intro">Walkup music for WBEC Pacific</h6>
+        </div>
+        <select id="checkbox-group" multiple="multiple" size="5">
+            <option value="mix">Show All</option>
+            <option value="less">Less than 30</option>
+            <option value="more">More than 30</option>
+            <option value="calm">Calmer</option>
+            <option value="upbeat">Upbeat</option>
+        </select>
+        <div class="container">
+            <!--MUSIC: COPY FROM HERE-->
+            <div class="mix">
+                <h2>Love is Love - 1</h2>
+                <h6>0:00</h6>
+                <audio controls>
+                    <source src="music/MPATH_MPATH_0058_02601_Lov_is_Lov_-_Instrumental_APM-1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p>Description of music</p>
+            </div>
+            <!--MUSIC: TO HERE-->
+            <!--MUSIC: COPY FROM HERE-->
+            <div class="mix">
+                <h2>Love is Love - 2</h2>
+                <h6>0:00</h6>
+                <audio controls>
+                    <source src="music/MPATH_MPATH_0058_02601_Lov_is_Lov_-_Instrumental_APM-2.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p>Description of music</p>
+            </div>
+            <!--MUSIC: TO HERE-->
+            <!--MUSIC: COPY FROM HERE-->
+            <div class="mix">
+                <h2>Love is Love - 3</h2>
+                <h6>0:00</h6>
+                <audio controls>
+                    <source src="music/MPATH_MPATH_0058_02601_Lov_is_Lov_-_Instrumental_APM-3.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p>Description of music</p>
+            </div>
+            <!--MUSIC: TO HERE-->
+            <!--MUSIC: COPY FROM HERE-->
+            <div class="mix">
+                <h2>Love is Love - 4</h2>
+                <h6>0:00</h6>
+                <audio controls>
+                    <source src="music/MPATH_MPATH_0058_02601_Lov_is_Lov_-_Instrumental_APM-4.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p>Description of music</p>
+            </div>
+            <!--MUSIC: TO HERE-->
+        </div>
+    </div>
+
+    <script>
+        mybutton = document.getElementById("top");
+        window.onscroll = function() {
+            scroll()
+        };
+
+        function scroll() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.opacity = "1";
+            } else {
+                mybutton.style.opacity = "0";
+            }
+        }
+
+        function topReturn() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+        $('#checkbox-group').on('change', function() {
+            var number = $(this).val();
+            var classNames = '.' + number.join('.');
+            $(".mix").hide().filter(classNames).show();
+        });
+        $("#filter").keyup(function() {
+            var filter = $(this).val(),
+                count = 0;
+            $('.mix').each(function() {
+                if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+                    $(this).hide();
+                } else {
+                    $(this).show();
+                    count++;
+                }
+            });
+        });
+    </script>
+</body></html>
