@@ -1,6 +1,6 @@
 BEGIN:VCARD
 VERSION:3.0
-REV:2025-04-02T18:41:10Z
+REV:2025-04-22T17:43:02Z
 N;CHARSET=utf-8:Pacific;WBEC;;;
 FN;CHARSET=utf-8:WBEC Pacific
 EMAIL;INTERNET:info@wbec-pacific.org
@@ -13,6 +13,6 @@ TITLE;CHARSET=utf-8:Certification & Sponsorship
 URL;WORK;:wbec-pacific.org
 TEL;WORK;:
 TEL;CELL;WORK;:
-ADR;WORK;POSTAL;CHARSET=utf-8:;;3616 Colby Ave #251;Everett;;98201;United
-  States
+ADR;WORK;POSTAL;CHARSET=utf-8:;;526 N. West Ave #43;Arlington;;98223;Unit
+ ed States
 END:VCARD
