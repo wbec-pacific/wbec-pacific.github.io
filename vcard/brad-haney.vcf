@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+REV:2025-10-02T22:29:35Z
+N;CHARSET=utf-8:Haney;Brad;;;
+FN;CHARSET=utf-8:Brad Haney
+EMAIL;INTERNET:brad@wbec-pacific.org
+URL;Home;:brad.wbec-pacific.org
+TEL;CELL;HOME;:
+TEL;HOME;:
+TEL;CELL;PERF;:
+ORG;CHARSET=utf-8:WBEC-Pacific;WORK;
+TITLE;CHARSET=utf-8:Manager, Community Development and Corporate Engageme
+ nt
+URL;WORK;:wbec-pacific.org
+TEL;WORK;:4157422639
+TEL;CELL;WORK;:
+ADR;WORK;POSTAL;CHARSET=utf-8:;;526 N. West Ave #43;Arlington;;98223;Unit
+ ed States
+END:VCARD
